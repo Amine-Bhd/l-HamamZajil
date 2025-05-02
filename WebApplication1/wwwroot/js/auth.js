@@ -3,7 +3,7 @@
 var connection = new signalR.HubConnectionBuilder().withUrl("/LoginHub").build();
 
 
-document.getElementById("loginBtn").addEventListener("click", function () {
+document.getElementById("loginButton").addEventListener("click", function () {
 
     //if i want to keep the login button as submit type, add this below:
     //event.preventDefault();
