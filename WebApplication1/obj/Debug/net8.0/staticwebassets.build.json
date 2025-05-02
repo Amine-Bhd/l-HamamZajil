@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lGWQkb9f6NIKHCAqsv5Lr/6GBLByftdijvT/Umuqo+Y=",
+  "Hash": "tKb8yvvlI4U44XfNc7KEOd61lTfUDNwo/1SCSYgbC/I=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "js/auth#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7gt4xtjnpm",
+      "Integrity": "F7PcUPd6o0l8ljPV6Gu/0/EpR5vGytk7UmQRzLFUM9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
       "Identity": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\chat.js",
@@ -1548,6 +1569,88 @@
       ]
     },
     {
+      "Route": "js/auth.7gt4xtjnpm.js",
+      "AssetFile": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F7PcUPd6o0l8ljPV6Gu/0/EpR5vGytk7UmQRzLFUM9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 01:03:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7gt4xtjnpm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/auth.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F7PcUPd6o0l8ljPV6Gu/0/EpR5vGytk7UmQRzLFUM9o="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth.js",
+      "AssetFile": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F7PcUPd6o0l8ljPV6Gu/0/EpR5vGytk7UmQRzLFUM9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 01:03:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F7PcUPd6o0l8ljPV6Gu/0/EpR5vGytk7UmQRzLFUM9o="
+        }
+      ]
+    },
+    {
       "Route": "js/chat.drwbsndtfg.js",
       "AssetFile": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\chat.js",
       "Selectors": [],
@@ -1570,7 +1673,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 17:16:29 GMT"
+          "Value": "Fri, 02 May 2025 00:26:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1615,7 +1718,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 17:16:29 GMT"
+          "Value": "Fri, 02 May 2025 00:26:51 GMT"
         },
         {
           "Name": "Cache-Control",

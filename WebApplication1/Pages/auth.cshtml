@@ -1,0 +1,85 @@
+﻿@page "/auth"
+@model WebApplication1.Pages.authModel
+@{
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <ul class="nav nav-tabs card-header-tabs" id="authTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text-white" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-white" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="signup" aria-selected="false">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="authTabContent">
+                        <!-- Login Tab -->
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <form id="loginForm">
+                                <p id="error-msg" style="color:red;"></p>
+                                <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="loginEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="loginPassword" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="button" class="btn btn-primary" id="loginButton">Login</button>
+                                </div>
+                                
+                                <div class="text-center mt-3">
+                                    <a href="#" id="forgotPasswordLink">Forgot password?</a>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <!-- Sign Up Tab -->
+                        <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+                            <form id="signupForm">
+                                <div class="mb-3">
+                                    <label for="signupName" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="signupName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="signupEmail" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="signupEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="signupPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="signupPassword" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" id="signupConfirmPassword" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="termsAgree" required>
+                                    <label class="form-check-label" for="termsAgree">I agree to the Terms and Conditions</label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary" id="signupButton">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include Bootstrap JS and SignalR -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/auth.js"></script>
