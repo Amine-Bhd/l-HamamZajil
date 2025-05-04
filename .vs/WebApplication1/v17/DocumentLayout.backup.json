@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\amine\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\hubs\\loginhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\hubs\\loginhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\pages\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|c:\\users\\amine\\source\\repos\\webapplication1\\webapplication1\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{759600F9-51F4-434A-96F1-01DC56833D18}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WebApplication1",
-              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
-              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T17:25:00.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:17:17.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "chat.js",
-              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\chat.js",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\chat.js",
-              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\chat.js",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\chat.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-26T17:16:03.945Z",
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "WebApplication1\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T15:54:22.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test.cshtml",
+              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Pages\\test.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\test.cshtml",
+              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Pages\\test.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\test.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T15:39:12.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WebApplication1",
-              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
-              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T14:31:31.242Z",
+              "Title": "auth.cshtml",
+              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Pages\\auth.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\auth.cshtml",
+              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Pages\\auth.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\auth.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T00:56:50.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginHub.cs",
+              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Hubs\\LoginHub.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Hubs\\LoginHub.cs",
+              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\Hubs\\LoginHub.cs",
+              "RelativeToolTip": "WebApplication1\\Hubs\\LoginHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:50:01.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "auth.js",
+              "DocumentMoniker": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\amine\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\auth.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-01T23:23:30.06Z",
               "EditorCaption": ""
             }
           ]
