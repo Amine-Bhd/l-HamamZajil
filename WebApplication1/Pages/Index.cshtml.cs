@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
 namespace WebApplication1.Pages
 {
     public class IndexModel : PageModel
@@ -11,6 +13,7 @@ namespace WebApplication1.Pages
         {
             _logger = logger;
         }
+
 
         public void OnGet()
         {
