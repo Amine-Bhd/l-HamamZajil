@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 namespace WebApplication1.Pages
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
@@ -13,6 +14,7 @@ namespace WebApplication1.Pages
         {
             _logger = logger;
         }
+
 
 
         public void OnGet()

@@ -11,11 +11,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => false; // no need for user consent
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
+
+
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
 })
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddRazorPages(options => {
+    options.Conventions.AuthorizeFolder("/"); // Requires auth for all pages
+    // If you want to exclude Index
+    //options.Conventions.AllowAnonymousToPage("/Index");
+});
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Identity/Account/Login";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+});
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -33,6 +52,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+//just for debug, to be removed later
+app.UseStatusCodePages();
+app.UseCookiePolicy();
+
 app.UseRouting();
 
 app.UseAuthentication();
@@ -42,7 +65,7 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.MapHub<ChatHub>("/chatHub");
+app.MapHub<ChatHub>("/chatHub").RequireAuthorization(); ;
 app.MapHub<LoginHub>("/LoginHub");
 
 app.Run();
